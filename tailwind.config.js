@@ -2,12 +2,11 @@
 module.exports = {
     content: [],
     theme: {
-        colors: {
-            green_as_want: '#0599a9',
-        }
+
         extend: {
             backgroundImage: {
-                'bg-sofa': "url('/img/sofa.png')"
+                'bg-sofa': "url('/img/sofa.png')",
+                'bg-bed': "url('/img/frame.jpg')"
             }
         },
     },

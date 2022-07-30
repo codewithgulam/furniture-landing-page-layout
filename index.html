@@ -5,8 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Furniture Website</title>
+    <style>
+        /* width */
+        
+         ::-webkit-scrollbar {
+            width: 10px;
+        }
+        /* Track */
+        
+         ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+        /* Handle */
+        
+         ::-webkit-scrollbar-thumb {
+            background: #0599a9;
+            border-radius: 10px;
+        }
+        /* Handle on hover */
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: darkgoldenrod
+        }
+    </style>
 </head>
 
 <body>
@@ -14,15 +39,17 @@
 
 
     <header class="text-white body-font bg-[#0599a9]">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <div class="container  mx-auto flex flex-wrap p-5 flex-col md:flex-row justify-center items-center">
+            <a class="flex title-font  font-medium items-center text-white mb-4 md:mb-0">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
                 </svg>
-                <img class="w-12" src="/img/leftLogo.jpg" alt="">
-                <span class="ml-3 text-xl">Furniture</span>
+                <img class="w-12 rounded-full" src="/img/f.png" alt="">
+                <span class="ml-3 text-xl ">Web<span class="text-yellow-400 font-bold italic ">Nature</span></span>
+
             </a>
-            <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-white cursor-pointer flex flex-wrap items-center text-base justify-center">
+            <nav class=" md:ml-4 md:py-1 md:pl-4 md:border-l md:border-white cursor-pointer flex flex-wrap space-x-6 font-serif items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900">Sofa</a>
                 <a class="mr-5 hover:text-gray-900">Bedroom</a>
                 <a class="mr-5 hover:text-gray-900">Decor</a>
                 <a class="mr-5 hover:text-gray-900">Dining</a>
@@ -31,46 +58,122 @@
                 <a class="mr-5 hover:text-gray-900">Living</a>
                 <a class="mr-5 hover:text-gray-900">New Arrivals</a>
             </nav>
-            <button class="inline-flex items-center bord bg-[#0599a9] er-0 py-1 px-3 focus:outline-none hover:bg-yellow-400 rounded text-base mt-4 md:mt-0">LogIn
+            <!-- <button class="inline-flex items-center bord bg-[#0599a9] er-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0">LogIn
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-            </button>
+            </button> -->
         </div>
     </header>
-    <hr class="border-gray-600">
+    <hr class="border-gray-500">
     <section class="bg-[#0599a9] px-4 py-4">
-        <div class="flex justify-around flex-col md:flex-row-reverse px-4 py-4 ">
+        <div class="flex justify-center flex-col m-auto md:flex-row-reverse px-4 py-4 ">
 
-            <div class="sofa w-full flex justify-center items-center">
-                <img src="/img/sofa.png" class="" alt=" ">
+            <div class="sofa w-fit flex mr-auto ">
+                <img src="/img/sofa.png" class="" alt="sofa image">
 
             </div>
 
-            <div class=" flex md:justify-center flex-col md:px-14  w-fit  text-white  md:py-4 mt-10  ">
-                <span class="bg-yellow-500 w-fit rounded-full px-3 text-sm">SALE OFF</span>
-                <h2 class="font-bold text-2xl leading-6">Beautify your home</h2>
-                <p class=" text-justify  mt-3 my-5 text-slate-100 text-sm">Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, veniam? dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quis. elit. Dignissimos, at!</p>
-                <button class="border-black w-fit  text-black bg-yellow-300 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 hover:border-black rounded text-lg"><span>Lets
-                        Order Your</span><span>&#8594;</span> </button>
-            </div>
-        </div>
-    </section>
-
-    <section class=" m-6">
-        <div class="flex border-2 bg-[#dae1e7]  space-x-3 items-center">
-            <img src="/img/chair.png" class="w-32" alt="">
-            <div class="flex flex-col space-y-3 m-auto flex-wrap mx-10">
-                <div class="leading-3">
-                    <span class="text-red-500 font-bold w-fit rounded-full text-xs text-left ">OPEN SALE</span>
-                    <h3 class="text-red tracking-tight text-lg">Soufas & Louges</h3>
+            <div class=" flex md:justify-center flex-col w-fit md:w-80 m-auto justify-around text-white  md:py-4 mt-10  ">
+                <div>
+                    <span class="bg-yellow-500 w-fit rounded-full px-3 text-sm">SALE OFF</span>
+                    <h2 class="font-bold  text-2xl md:text-3xl  leading-6">Beautify your home</h2>
                 </div>
-                <button class="border-black w-fit text-xs text-white bg-red-400 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 hover:border-black rounded md:text-lg" ">Explore</button>
+                <div>
+                    <p class=" text-justify  mt-3 my-5 text-slate-100 text-sm">Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, veniam? dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quis. elit. Dignissimos, at!</p>
+
+                </div>
+                <div>
+                    <button class="border-black w-fit  text-black bg-yellow-300 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 hover:border-black rounded text-lg"><span>Lets
+                            Order Your</span><span>&#8594;</span> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" ">
+
+        <div class="m-6 my-20  space-y-10 md:space-y-0 flex flex-col md:justify-evenly md:flex-row h-1/2">
+            <div class="flex border-2 bg-[#dae1e7] w-fit space-x-3  items-center rounded-lg">
+                <img src="/img/chair.png" class="w-36 md:w-52" alt="">
+                <div class="flex flex-col space-y-3 w-52 m-auto flex-wrap mx-10">
+                    <div class="leading-3">
+                        <span class="text-red-500 font-bold w-fit rounded-full text-xs text-left ">OPEN SALE</span>
+                        <h3 class="text-red tracking-tight text-lg">Soufas & Louges</h3>
+                    </div>
+                    <button class="border-black w-fit text-xs text-white bg-red-400 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 hover:border-black rounded md:text-lg" ">Explore</button>
+                </div>
+            </div>
+            <div class=" flex bg-[#fcebea] flex-row-reverse md:mx-18 w-fit space-x-3 items-center rounded-lg ">
+                <img src="/img/chair2.png " class=" w-36 md:w-52 " alt=" ">
+                <div class=" flex flex-col space-y-3 w-52 m-auto flex-wrap mx-20 ">
+                    <div class=" leading-3 ">
+                        <span class=" text-red-500 font-bold w-fit rounded-full text-xs text-left ">OPEN SALE</span>
+                        <h3 class=" text-red tracking-tight text-lg ">Soufas & Louges</h3>
+                    </div>
+                    <button class=" border-black w-fit text-slate-100 text-white bg-red-400 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 hover:border-black rounded md:text-lg " ">Explore</button>
+                </div>
             </div>
         </div>
 
+        <h1 class="text-center text-2xl font-bold  m-10">One Place For all Your Needs</h1>
+        <section class="flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-5 items-center mb-10 md:m-20 text-white text-lg uppercase">
+            <div style="background-image: url('/img/frame1.jpg');" class=" border-2 brightness-75  h-80 rounded-lg w-60 bg-cover bg-no-repeat border-black 
+            transition ease-in-out delay-75  hover:-translate-y-16 hover:scale-110  duration-300
+
+            ">
+                <p class="text-center">Beds</p>
+            </div>
+            <div style="background-image: url('/img/dark2.jpg');" class=" border-2  brightness-75 h-80 rounded-lg w-60 bg-cover bg-no-repeat border-black 
+            transition ease-in-out delay-150  hover:-translate-x-16 hover:scale-110  duration-300
+            ">
+                <p class="text-center">Sofa</p>
+            </div>
+            <div style="background-image: url('/img/frame3.jpg');" class=" border-2 h-80 rounded-lg w-60 bg-cover bg-no-repeat border-black 
+            transition ease-in-out delay-150  hover:-translate-y-16 hover:scale-110  duration-300
+            ">
+                <p class="text-center">Interior Design</p>
+            </div>
+            <div style="background-image: url('/img/frame4.jpg');" class=" border-2 brightness-75  h-80 rounded-lg w-60 bg-cover bg-no-repeat border-black 
+            transition ease-in-out delay-150  hover:-translate-x-16 hover:scale-110  duration-300
+            ">
+                <p class="text-center">Chair</p>
+            </div>
+            <div style="background-image: url('/img/frame5.jpg');" class=" border-2  brightness-75  h-80 rounded-lg w-60 bg-cover bg-no-repeat border-black 
+            transition ease-in-out delay-150  hover:-translate-y-16 hover:scale-110  duration-300
+            ">
+                <p class="text-center">Bedroom</p>
+            </div>
+        </section>
+
     </section>
+    <section class=" py-5 px-5 bg-[#0599a9] h-fit">
+        <h1 class="md:text-6xl  text-3xl capitalize font-bold text-center text-white font-mono">Let Us Connect together!
+        </h1>
+        <p class="text-center text-white font-mono mt-5 mb-5 md:mt-20  capitalize text-xl md:text-3xl">Contact Us</p>
+
+        <div class="flex flex-col md:flex-row space-y-5 md:m-20 md:space-y-0 md:space-x-5 items-center  justify-center">
+            <div class="flex md:flex-col items-center ">
+                <a href=""><i class="fa fa-mobile fa-3x"></i></a>
+                <span>Call Us</span>
+            </div>
+            <div class="flex items-center md:flex-col  space-x-2">
+                <a href="#"><i class="fa fa-whatsapp fa-3x"></i></a>
+                <span>Whatsapp</span>
+            </div>
+            <div class="flex items-center md:flex-col  space-x-2">
+                <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+                <span>Instagram</span>
+            </div>
+            <div class="flex items-center md:flex-col  space-x-2">
+                <a href="#"><i class="fa fa-facebook fa-3x"></i></a>
+                <span>Facebook</span>
+            </div>
+
+        </div>
+    </section>
+
 </body>
 
 </html>
