@@ -1,6 +1,10 @@
 # furniture-landing-page-layout
 Furniture Layout
-## https://codewithgulam.github.io/furniture-landing-page-layout/
+<hr>
+<a href="https://codewithgulam.github.io/furniture-landing-page-layout/"> Furniture Landing Page </a>
+
+<br>
+<hr>
 
 Your First Contribution to Open Source Code
 <h4> Code in your Favourite language <h4/>
@@ -10,6 +14,8 @@ Your First Contribution to Open Source Code
         <a style="align:center;" href="https://ibb.co/sm1QJJy"><img src="https://i.ibb.co/WxzFppg/Hfest-Logo-2-Color-Void-2x.png" alt="Hfest-Logo-2-Color-Void-2x" border="0"></a>
    </div>
 <br>
+
+
 <h3 align="center">
     <a href="https://hacktoberfest.com/">
         ☑Join Hacktoberfest 2022 From Here 
