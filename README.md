@@ -10,9 +10,9 @@ Your First Contribution to Open Source Code
 <h4> Code in your Favourite language <h4/>
 <h1 align="center"> 🎁🎁Hacktoberfest 2022👘👘 </h1>
 <br>
-  <div>
+  <p align="center">
         <a style="align:center;" href="https://ibb.co/sm1QJJy"><img src="https://i.ibb.co/WxzFppg/Hfest-Logo-2-Color-Void-2x.png" alt="Hfest-Logo-2-Color-Void-2x" border="0"></a>
-   </div>
+   <p>
 <br>
 
 
